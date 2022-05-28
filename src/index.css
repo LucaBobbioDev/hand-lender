@@ -1,0 +1,12 @@
+/*Retirando as configurações que vem com o navegador*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', 'sans-serif';
+  }
+  
+  html, body,#root{
+    background-color: #171717;
+  }

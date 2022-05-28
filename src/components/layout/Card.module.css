@@ -1,0 +1,23 @@
+.card{
+    background-color: #2b2b2b;
+    border: 2px solid #000;
+    border-image: linear-gradient(#DA0037, #0F044C) 1;
+    animation: rotate 5.5s ease-in infinite;
+}
+
+@keyframes rotate {
+    50%{
+        border-image: 
+        linear-gradient(
+            350deg,
+            #DA0037, 
+            #0F044C) 1;
+    }
+}
+.conteudo{
+    flex-direction: column;
+    flex: 1;
+    color: #ededed;
+}
+
+

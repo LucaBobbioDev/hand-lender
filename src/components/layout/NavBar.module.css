@@ -1,0 +1,36 @@
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DA0037;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin-right: 2em;
+}
+
+.item a{
+    color: #ededed;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item a:hover{
+    color:#171717;
+    background-color: #ededed;
+}
+
+.icon a{
+    color: #ededed;
+}
+
+.icon a:hover{
+    color: #c0bdbd;
+}
