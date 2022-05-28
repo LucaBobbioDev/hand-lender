@@ -3,3 +3,13 @@
     width: 100%;
     box-shadow: 0 0 5px black;
 }
+
+.conteudo{
+    flex-direction: column;
+    text-align: center;
+    margin:2em;
+}
+
+.input{
+    margin: 10px;
+}
