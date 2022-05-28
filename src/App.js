@@ -7,6 +7,7 @@ import Forum from './components/pages/Forum';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register'
+import Create from './components/pages/Create'
 
 import Container from './components/layout/Container';
 import NavBar from './components/layout/NavBar';
@@ -25,10 +26,10 @@ export default function App() {
               <Route path="/Contact" element={<Contact/>}/> 
               <Route path="/Login" element={<Login/>}/>
               <Route path="/Register" element={<Register/>}/>
+              <Route path="/Create" element={<Create/>}/>
           </Routes>
         </Container>  
       <Footer />
     </Router>
   );
 }
- 
