@@ -6,3 +6,11 @@
     justify-content: center; 
     padding: 4em;
 }
+
+.criar a{
+    color: #EDEDED;
+    text-decoration: none;
+}
+.criar a hover{
+    color: #c0bdbd;
+}
