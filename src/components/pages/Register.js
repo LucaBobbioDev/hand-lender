@@ -21,7 +21,7 @@ export default function Register(){
                         <input type="submit"/>
                     </div>
                 </Card>
-                <img src={register} width={300}></img>
+                <img src={register} width={300} alt="Drawing of man looking at a login page in a giant smartphone"></img>
             </div>
         </>
     )
