@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);;
+    border: #DA0037;
+}
+.button {
+    border-radius: 10px;
+    padding: 20px 45px;
+    text-decoration: none;
+    background-color: #DA0037;
+    color: #171717;
+}
+.button:hover{
+    color: #ededed;
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow: 
+        0 0 20px #ee2f5f,
+        0 0 35px #DA0037;
+    }
+}

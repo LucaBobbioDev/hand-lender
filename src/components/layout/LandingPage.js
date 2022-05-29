@@ -1,5 +1,5 @@
 import styles from './LandingPage.module.css'
-import { Link } from "react-router-dom";
+import LinkButton from './LinkButton';
 
 export default function LandingPage(){
     return(
@@ -9,9 +9,7 @@ export default function LandingPage(){
                 Saiba que o Hand Lender é o lugar perfeito para resolver o seu problema!<br/>
             </p>
             <div className={styles.center}>
-                <button type="button" className={styles.botao}>
-                    <Link to="/Register">Login</Link>
-                </button>
+                <LinkButton to="/Register" text="Login"/>
             </div>
         </div>
         
