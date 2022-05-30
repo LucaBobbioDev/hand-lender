@@ -15,7 +15,7 @@ export default function Home(){
                 </p>
                 <img src={projects} width={300} alt='Drawing of a man using an laptop with a window behind'></img>
                 <div className={styles.criar}> 
-                    <LinkButton to="/Create" text="Criar Projeto"/>
+                    <LinkButton to="/Create" text="Ir para área de criação do projeto"/>
                 </div>   
         </div>
         </>

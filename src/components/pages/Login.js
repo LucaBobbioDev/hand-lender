@@ -18,7 +18,7 @@ export default function Login(){
                                 <input type="password" placeholder="Insira a sua senha"/>
                             </div>
                             <div className={styles.input}>
-                                <input type="submit"/>
+                                <input type="submit" value="Entrar"/>
                             </div>
                         </div>
                     </Card>
