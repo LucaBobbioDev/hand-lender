@@ -17,6 +17,12 @@ export default function ProjectForm (){
                 name="Budget"
                 placeholder="Insira um possível orçamento"
             />
+            <Input 
+                type="text"
+                text="Descrição do Projeto"
+                name="Budget"
+                placeholder="Insira uma descrição do seu projeto"
+            />
             <Submit text="Criar Projeto"/>
         </form>
     )
