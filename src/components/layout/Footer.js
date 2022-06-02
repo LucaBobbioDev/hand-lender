@@ -9,7 +9,7 @@ export default function Footer(){
             <div className={styles.icon}>
                 <FaGithub/>
                 <span>
-                    <FaInfoCircle/>
+                <FaInfoCircle/>
                 </span>
             </div>
             <p>

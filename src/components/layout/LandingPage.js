@@ -1,5 +1,5 @@
 import styles from './LandingPage.module.css'
-import LinkButton from './LinkButton';
+import LinkButton from './LinkButton'
 
 export default function LandingPage(){
     return(
@@ -9,7 +9,7 @@ export default function LandingPage(){
                 Saiba que o Hand Lender é o lugar perfeito para resolver o seu problema!<br/>
             </p>
             <div className={styles.center}>
-                <LinkButton to="/Register" text="Login"/>
+                <LinkButton to="/Choose" text="Iniciar"/>
             </div>
         </div>
         

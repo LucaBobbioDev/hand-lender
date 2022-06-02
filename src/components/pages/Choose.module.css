@@ -1,0 +1,30 @@
+.background{
+    background: #1f1f1f52;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 1px solid rgba(31, 31, 31, 0.34);
+    margin: 10px;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.idea{
+    margin: 2em 50px 2em 100px;
+}
+
+.inve{
+    justify-content: right;
+    margin: 2em 0px 2em 20em;
+}
+.button a{
+    justify-content: center;
+}
