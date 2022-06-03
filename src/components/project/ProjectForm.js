@@ -1,6 +1,7 @@
 import styles from './ProjectForm.module.css'
 import Input from '../form/Input'
 import Submit from '../form/Submit'
+import { Link } from 'react-router-dom'
 
 export default function ProjectForm (){
     return(
@@ -24,7 +25,11 @@ export default function ProjectForm (){
                     name="Budget"
                     placeholder="Insira uma descrição do seu projeto"
                 />
-                <Submit text="Criar Projeto"/>
+                <div className={styles.buttonLink}>
+                    <Link to="/Projects">
+                        <Submit text="Publicar Projeto"/>
+                    </Link>
+                </div>
             </form>
         </div>
         
